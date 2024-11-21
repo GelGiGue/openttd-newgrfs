@@ -556,7 +556,7 @@ item(FEAT_HOUSES, item_house_semidetached, 20) {
 		local_authority_impact: 75;
 		removal_cost_multiplier: 75;
 		probability: 6;
-		years_available: [1930, 65535];
+		years_available: [1919, 65535];
 		minimum_lifetime: 10;
 		availability_mask: [bitmask(TOWNZONE_OUTSKIRT), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
 		random_colours: [COLOUR_WHITE, COLOUR_GREY, COLOUR_BROWN, COLOUR_DARK_GREEN];
@@ -707,7 +707,7 @@ item(FEAT_HOUSES, item_house_terrace, 30) {
 		local_authority_impact: 80;
 		removal_cost_multiplier: 80;
 		probability: 6;
-		years_available: [1880, 65535];
+		years_available: [1800, 65535];
 		minimum_lifetime: 10;
 		availability_mask: [bitmask(TOWNZONE_OUTER_SUBURB, TOWNZONE_INNER_SUBURB, TOWNZONE_CENTRE), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
 		random_colours: [COLOUR_WHITE, COLOUR_GREY, COLOUR_BROWN, COLOUR_DARK_GREEN];
@@ -783,7 +783,7 @@ item(FEAT_HOUSES, item_house_terraceshops, 31) {
 		local_authority_impact: 85;
 		removal_cost_multiplier: 85;
 		probability: 3;
-		years_available: [1880, 65535];
+		years_available: [1800, 65535];
 		minimum_lifetime: 10;
 		availability_mask: [bitmask(TOWNZONE_OUTER_SUBURB, TOWNZONE_INNER_SUBURB, TOWNZONE_CENTRE), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
 		random_colours: [COLOUR_PURPLE, COLOUR_RED, COLOUR_GREEN, COLOUR_ORANGE];
@@ -898,7 +898,7 @@ item(FEAT_HOUSES, item_house_tallterrace, 40) {
 		local_authority_impact: 100;
 		removal_cost_multiplier: 100;
 		probability: 3;
-		years_available: [1900, 65535];
+		years_available: [1800, 65535];
 		minimum_lifetime: 15;
 		availability_mask: [bitmask(TOWNZONE_CENTRE), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
 		random_colours: [COLOUR_WHITE, COLOUR_GREY, COLOUR_BROWN, COLOUR_DARK_GREEN];
@@ -974,7 +974,7 @@ item(FEAT_HOUSES, item_house_tallterraceshops, 41) {
 		local_authority_impact: 110;
 		removal_cost_multiplier: 110;
 		probability: 3;
-		years_available: [1900, 65535];
+		years_available: [1800, 65535];
 		minimum_lifetime: 15;
 		availability_mask: [bitmask(TOWNZONE_CENTRE), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
 		random_colours: [COLOUR_WHITE, COLOUR_GREY, COLOUR_BROWN, COLOUR_DARK_GREEN];
@@ -1784,7 +1784,7 @@ item(FEAT_HOUSES, item_house_warehouse2x2, 90, HOUSE_SIZE_2X2) {
 		local_authority_impact: 100;
 		removal_cost_multiplier: 110;
 		probability: 15; //Highly likely, as clustering callback will reduce construction rate by ~16x
-		years_available: [1900, 65535];
+		years_available: [1820, 65535];
 		minimum_lifetime: 10;
 		availability_mask: [bitmask(TOWNZONE_OUTSKIRT, TOWNZONE_OUTER_SUBURB, TOWNZONE_INNER_SUBURB), ALL_CLIMATES | bitmask(ABOVE_SNOWLINE)];
 		random_colours: [COLOUR_WHITE, COLOUR_GREY, COLOUR_BROWN, COLOUR_DARK_GREEN];
